@@ -12,6 +12,9 @@
 .articles .about h2 { font-family: fangsong ; margin-bottom: 1rem ; line-height: 1.2 ; }
 .articles .about h1 { font-size: 1.875rem ; }
 .articles .about h2 { font-size: 1.25rem ; }
+@media ( min-width: 992px ) {
+	.article-list { padding-left: 3rem ; }
+}
 @media ( min-width: 576px ) {
 	.articles .about { padding-right: 2rem ; }
 	.articles .articles-list { padding-left: 2rem ; border-left: 1px solid #e9ecef ; }
