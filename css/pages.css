@@ -1,0 +1,43 @@
+/* Articles */
+.articles .content-wrap { padding-top: 3rem ; }
+.articles .about .button { color: #777 ; border-color: #777 ; }
+.articles .about .topics a { color: #777 ; }
+.articles .about .topics a:hover { color: #30b9ff ; }
+.articles .about .toggle-title { color: #999 ; }
+.articles .about .divider { margin-top: 1.5rem ; margin-bottom: 1.5rem ; }
+.articles .about h1,
+.articles .about h2 { color: #555555 ; }
+.articles .about p { color: #999 ; }
+.articles .about h1,
+.articles .about h2 { font-family: fangsong ; margin-bottom: 1rem ; line-height: 1.2 ; }
+.articles .about h1 { font-size: 1.875rem ; }
+.articles .about h2 { font-size: 1.25rem ; }
+@media ( min-width: 576px ) {
+	.articles .about { padding-right: 2rem ; }
+	.articles .articles-list { padding-left: 2rem ; border-left: 1px solid #e9ecef ; }
+}
+@media ( max-width: 576px ) {
+	.articles .content-wrap { padding-top: 0 ; }
+	.articles .about { padding-right: 0 ; padding-left: 0 ; }
+	.articles .about .introduction { padding: 1.5rem ; }
+	.articles .about .topics { padding: 2rem 1rem ; }
+	.articles .about .about-detail { padding: 1rem ; }
+	.articles .about .introduction { background-color: #30b9ff ; }
+	.articles .about .introduction h1 { margin-top: 2rem ; }
+	.articles .about .introduction h1,
+	.articles .about .introduction p,
+	.articles .about .introduction a { color: #FFF ; }
+	.articles .about .introduction .button { border-color: #FFF ; }
+}
+.article-list .author { display: flex ; }
+.article-list .author .avatar { width: 3rem ; margin-right: 1rem ; }
+.article-list .author .avatar img { border-radius: 10rem ; }
+.article-list .author .name h3 { font-weight: 700 ; }
+.article-list .author .name h3,
+.article-list .author .name p { font-size: 1rem ; margin-bottom: 0 ; color: #999 ; }
+.article-list .date { font-size: 0.875rem ; margin-bottom: 0.5rem ; color: #999 }
+.article-list h2 { font-size: 1.5rem ; line-height: 1 ; margin-bottom: 1rem ; }
+.article-list a { color: inherit ; }
+.article-list-item { padding-bottom: 2rem ; }
+.article-list-item+.article-list-item { padding-top: 2rem ; border-top: 1px solid #e9ecef ; }
+

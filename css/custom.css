@@ -1,0 +1,42 @@
+/* General ------------------ */
+@media ( min-width: 1189px ) {
+	.pc-px-0 { padding-left: 0 !important ; padding-right: 0 !important ; }
+	.pc-mx-0 { margin-left: 0 !important ; margin-right: 0 !important ; }
+}
+@media ( min-width: 576px ) {
+	.mobile { display: none ; }
+}
+@media ( max-width: 576px ) {
+	.pc { display: none ; }
+}
+
+h3 { margin-bottom: 1rem ; }
+p { margin-bottom: 1rem ; font-size: 1.125rem ; }
+a { color: #333 ; }
+a:hover { color: #999 ; }
+
+
+/* Element ------------------ */
+/* Topics */
+.topics { line-height: 2rem ; }
+.topics span { background-color: #EEE ; padding: 0.25rem 0.875rem ; border-radius: 1rem ; }
+
+
+/* Basic ------------------ */
+/* Footer */
+#footer { background-image: linear-gradient(to right, #F4F4F4 , #E4E4E4) ; border: 0 ; }
+#copyrights { background-color: #DDD ; }
+.sns .item i { font-size: 1.125rem ; width: 2rem ; text-align: center ; }
+.sns .item a { font-size: 1.125rem ; }
+#copyrights span { margin-right: 1rem ; }
+#copyrights a { border-bottom: 1px dotted ; }
+#copyrights .links { display: inline-block ; }
+/* Tips Bar */
+.tipsbar { padding: 0.5rem ; text-align: center ; background-image: linear-gradient(to right, #E4E4E4 , #F4F4F4) ; }
+.tipsbar p { margin-bottom: 0 ; }
+/* Subscription */
+.subscription-form { border: 1px solid #333 ; border-radius: 4px ; }
+.subscription-form .input-group { align-items: center ; }
+.subscription-form .input-group .form-control { background-color: transparent ; border: 0 ; }
+.subscription-form .input-group i { padding: 0.5rem ; }
+
